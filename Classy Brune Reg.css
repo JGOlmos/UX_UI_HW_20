@@ -1,0 +1,11 @@
+/* Webfont: ClassyBrune-Regular */@font-face {
+    font-family: 'ClassyBrune';
+    src: url('Classy Brune Reg.eot'); /* IE9 Compat Modes */
+    src: url('Classy Brune Reg.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Classy Brune Reg.woff') format('woff'), /* Modern Browsers */
+         url('Classy Brune Reg.ttf') format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+

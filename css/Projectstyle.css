@@ -1,0 +1,224 @@
+.inline-block {
+    display:inline-block;
+    vertical-align: top;
+  }
+
+.logo{
+    width: 23%;
+    padding: 1px;
+    vertical-align: top;
+}
+
+.logoimage{
+    height: 18vh;
+}
+
+.logotext{
+    font-family: 'ClassyBrune';
+    font-weight: normal;
+    font-size: 24px;
+    color: #40075B;
+    vertical-align: center;
+    padding-top: 50px;
+}
+
+nav {
+    width: 75%;
+    margin-left: auto;
+    text-align: right;
+    font-family: 'ClassyBrune';
+    vertical-align: center;
+    padding-top: 30px;
+}
+
+ul {
+    width: auto;
+    margin-left: auto;
+    list-style: none;
+}
+
+.navlist{
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+.navHover:hover{
+    color: #AC8887;
+    border-bottom: 3px solid #AC8887;
+}
+
+h1{
+    font-family: 'ClassyBrune';
+    font-weight: normal;
+    font-size: 36;
+    color: #40075B;
+}
+
+h2{
+    font-size: 24;
+    font-family: 'ClassyBrune';
+    color: #AC8887;
+}
+
+h3{
+    font-size: 18;
+    font-family: 'ClassyBrune';
+    font-weight: normal;
+}
+
+p {
+    font-size: 18;
+    font-family: 'kyrial-sans-pro';
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+    color: #40075B;
+}
+
+button{
+    background-color: #ffffff; 
+    border: 3px solid #40075B;
+    color:#40075B;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    font-family: 'Fira Sans', sans-serif;
+    font-style: normal;
+}
+
+button:hover{
+    background-color: #FFEFD3;
+}
+
+.workGrid{
+    display: grid;
+    margin-top: 40px;
+    height: 900px;
+    grid-template-rows: 33% 33% 34%;
+    grid-row-gap: 5%;
+    grid-template-columns: 100%;
+    grid-template-areas:
+    'toprow'
+    'secondrow'
+    'thirdrow';
+}
+
+.toprow{
+    background-image: url(../images/ProjectGridBackground.png);background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: toprow;
+    display: flex;
+    width: 100%;
+}
+
+.projectimage{
+    display: flex;
+    align-content: top;
+    justify-content: flex-start;
+    height: fit-content;
+    margin: 0 auto;
+    height: 90%;
+}
+
+.square{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    background-color: #AC8887;
+    position: absolute;
+    right: 0;
+    padding: 20px 0 20px 0;
+    height: 100%;
+    width: 40%;
+    margin: 2%;
+}
+
+.projectText{
+    border-left: 1vh solid #40075B;
+    background-color: rgba(255, 255, 255, 0.788);;
+    position: absolute;
+    right: 20%;
+    top: 20%;
+    width: 300px;
+    padding: 1vh;
+    z-index: 75;
+    border-radius: 0 4px 4px 0;
+}
+
+.secondrow{
+    background-image: url(../images/ProjectGridBackground.png);background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: secondrow;
+    display: flex;
+    width: 100%;
+}
+
+.thirdrow{
+    background-image: url(../images/ProjectGridBackground.png);background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: thirdrow;
+    display: flex;
+    width: 100%;;
+}
+
+
+.workGridArea {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    /* border-right: 15px solid #AC8887;
+    border-bottom: 15px solid #AC8887; */
+  }
+
+  footer{
+    clear:inline-start;
+    border-top:10px solid #ac8887;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+.footer-inline-block {
+    clear: both;
+    display: inline-block;
+    align-items: center;
+    vertical-align: top;
+    padding-right: 50px;
+    padding-left: 50px;
+    color: #ac8887;
+    font-family: 'ClassyBrune';
+}
+
+.container{
+    width: 100%; 
+    text-align: center;
+    margin-top: 15vh;
+}
+.footertext{
+    color: #ac8887;
+}
+
+
+  @media only screen and (max-width: 600) {
+      .workGrid{
+          margin: 0px 5%;
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+      }
+  }
+  

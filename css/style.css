@@ -1,0 +1,228 @@
+.inline-block {
+    display:inline-block;
+    vertical-align: top;
+  }
+
+.logo{
+    width: 23%;
+    padding: 1px;
+    vertical-align: top;
+}
+
+.logoimage{
+    height: 18vh;
+}
+
+.logotext{
+    font-family: 'ClassyBrune';
+    font-weight: normal;
+    font-size: 24px;
+    color: #40075B;
+    vertical-align: center;
+    padding-top: 50px;
+}
+
+nav {
+    width: 75%;
+    margin-left: auto;
+    text-align: right;
+    font-family: 'ClassyBrune';
+    vertical-align: center;
+    padding-top: 30px;
+}
+
+ul {
+    width: auto;
+    margin-left: auto;
+    list-style: none;
+}
+
+.navlist{
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+.navHover:hover{
+    color: #AC8887;
+    border-bottom: 3px solid #AC8887;
+}
+
+.heroImg{
+    height: 325px;
+    padding: 40px 40px 30px 40px;
+    grid-area: heroImg;
+}
+
+
+.image1{
+    width: 100%;
+    height: 300px;
+    /* padding: 0 10%; */
+    border-bottom: 20px solid #AC8887;
+    border-right: 20px solid #AC8887;
+    border-radius: 4px;
+}
+
+.headliner {
+    background-color: #FFEFD3;
+    border-left: 5px solid #40075B;
+    position: absolute;
+    align-items: center;
+    right:30%;
+    top: 250px;
+    padding: 0 25px;
+    max-width: 550px;
+    z-index: 100;
+    color:#40075B;
+    /* display: absolute; */
+  }
+  
+
+.aboutme{
+    width: 100%;
+    padding: 0px;
+    width: 100%;
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+.profilepic{
+   width: 300px;
+   margin:20px;
+   grid-area: profilepicture;
+}
+
+.profilepicture{
+    height: 15em;
+    margin: 0 auto;
+
+}
+.content{
+    height: 50vh;
+    margin: 0 auto;
+    text-align: center;
+    /* padding: 60px; */
+    grid-area: content;
+}
+   
+.wdtrav_notes{
+    background-color: #ac8887;
+}
+footer{
+    border-top:10px solid #ac8887;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  
+}
+
+.footer-inline-block {
+    clear: both;
+    display: inline-block;
+    align-items: center;
+    vertical-align: top;
+    padding-right: 50px;
+    padding-left: 50px;
+    color: #ac8887;
+    font-family: 'ClassyBrune';
+}
+
+.container{
+    margin-top: 5vh;
+    width: 100%; 
+    text-align: center;
+}
+
+h1{
+    font-family: 'ClassyBrune';
+    font-weight: normal;
+    font-size: 36px;
+    color: #40075B;
+}
+
+h2{
+    font-size: 24;
+    font-family: 'ClassyBrune';
+    font-weight: normal;
+    color: #AC8887;
+}
+
+h3{
+    font-size: 18;
+    font-family: 'ClassyBrune';
+    font-weight: normal;
+    color: #AC8887;
+}
+p {
+    font-size: 18;
+    font-family: 'kyrial-sans-pro';
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+    color: #40075B;
+}
+
+button{
+    margin: 20px 30px;
+    background-color: #ffffff; 
+    border: 3px solid #40075B;
+    color:#40075B;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    font-family: 'kyrial-sans-pro';
+    font-weight: 500;
+    font-style: normal;
+    color: #40075B;
+}
+
+a{
+    color:#40075B;
+}
+.resume{
+    grid-area: resume;
+}
+.linkedin{
+    grid-area: linkedin;
+}
+
+button:hover{
+    background-color: #FFEFD3;
+}
+
+.footertext{
+    color: #ac8887;
+}
+
+@media only screen and (max-width: 600px) {
+    .aboutme{
+        Margin: 0px 5%;
+        display: flex;
+        flex-direction: column;
+    }
+
+.profilepic{
+    margin: 0 5%;
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: 1;
+    grid-area: 
+    'profilepic';
+}
+.content{
+    margin: 0 5%;
+    display:flex;
+    flex-direction: column;
+    grid-template-columns: 1;
+    grid-template-rows: 3;
+    grid-template-areas: 
+    'content'
+    'resume'
+    'linkedin'
+}
+}

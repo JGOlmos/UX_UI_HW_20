@@ -1,0 +1,195 @@
+.inline-block {
+    display:inline-block;
+    vertical-align: top;
+  }
+
+.logo{
+    width: 23%;
+    padding: 1px;
+    vertical-align: top;
+}
+
+.logoimage{
+    height: 18vh;
+}
+
+.logotext{
+    font-family: 'ClassyBrune';
+    font-weight: normal;
+    font-size: 24px;
+    color: #40075B;
+    vertical-align: center;
+    padding-top: 50px;
+}
+
+nav {
+    width: 75%;
+    margin-left: auto;
+    text-align: right;
+    font-family: 'ClassyBrune';
+    vertical-align: center;
+    padding-top: 30px;
+}
+
+ul {
+    width: auto;
+    margin-left: auto;
+    list-style: none;
+}
+
+.navlist{
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+.navHover:hover{
+    color: #AC8887;
+    border-bottom: 3px solid #AC8887;
+}
+
+.heroImg{
+    background-image: url(../images/HeroImage.png);background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 400px;
+}
+
+
+.emailHeadliner {
+    background-color: #ffefd3ad;
+    position: absolute;
+    align-items: center;
+    left:10%;
+    top: 300px;
+    padding: 0 25px;
+    max-width: 550px;
+    z-index: 100;
+    color:#40075B;
+    border-radius: 4;
+    /* display: absolute; */
+}
+
+.LinkedinHeadliner{
+    background-color: #ffefd3ad;
+    position: absolute;
+    align-items: center;
+    right:10%;
+    top: 300px;
+    padding: 0 25px;
+    max-width: 550px;
+    z-index: 100;
+    color:#40075B;
+    border-radius: 4;
+    /* display: absolute; */
+}
+
+footer{
+    border-top:10px solid #ac8887;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  
+}
+
+.footer-inline-block {
+    clear: both;
+    display: inline-block;
+    align-items: center;
+    vertical-align: top;
+    padding-right: 50px;
+    padding-left: 50px;
+    color: #ac8887;
+    font-family: 'ClassyBrune';
+}
+
+.container{
+    margin-top: 5vh;
+    width: 100%; 
+    text-align: center;
+}
+
+h1{
+    font-family: 'ClassyBrune';
+    font-weight: normal;
+    font-size: 36px;
+    color: #40075B;
+}
+
+h2{
+    font-size: 24;
+    font-family: 'ClassyBrune';
+    font-weight: normal;
+    color: #AC8887;
+}
+
+h3{
+    font-size: 18;
+    font-family: 'ClassyBrune';
+    font-weight: normal;
+    color: #AC8887;
+}
+p {
+    font-size: 18;
+    font-family: 'Fira Sans', sans-serif;
+    text-align: center;
+    color: #40075B;
+}
+
+button{
+    background-color: #ffffff; 
+    border: 3px solid #40075B;
+    color:#40075B;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    font-family: 'Fira Sans', sans-serif;
+    font-style: normal;
+}
+
+.resume{
+    grid-area: resume;
+}
+.linkedin{
+    grid-area: linkedin;
+}
+
+button:hover{
+    background-color: #FFEFD3;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .aboutme{
+        Margin: 0px 5%;
+        display: flex;
+        flex-direction: column;
+    }
+
+.profilepic{
+    margin: 0 5%;
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: 1;
+    grid-area: 
+    'profilepic';
+}
+.content{
+    margin: 0 5%;
+    display:flex;
+    flex-direction: column;
+    grid-template-columns: 1;
+    grid-template-rows: 3;
+    grid-template-areas: 
+    'content'
+    'resume'
+    'linkedin'
+}
+}

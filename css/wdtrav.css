@@ -1,0 +1,172 @@
+.logoimage{
+    height: 18vh;
+}
+
+.logotext{
+    font-family: 'ClassyBrune';
+    font-weight: normal;
+    font-size: 24px;
+    color: #40075B;
+    vertical-align: center;
+}
+
+.customNav {
+    position: fixed;
+    width: 100%;
+    background: white;
+    z-index: 10;
+  }
+
+
+.navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+}
+
+.navbar-brand img {
+    padding-right: 15px;
+    width: 65px;
+}
+
+.nav-link{
+    font-family: 'ClassyBrune';
+    font-weight: normal;
+    font-size: 18px;
+    color: #40075B;
+}
+
+.nav-link:hover{
+    color: #AC8887;
+    border-bottom: 3px solid #AC8887;   
+}
+.nav-item {
+    margin: 0px 15px;
+    font-family: 'ClassyBrune';
+    font-weight: normal;
+    font-size: 24px;
+    color: #40075B;
+}
+
+
+
+dt{
+    font-family: 'ClassyBrune';
+    font-weight: normal;
+    font-size: 18px;
+    color: #ac8887;
+}
+
+dd{
+    font-size: 18;
+    font-family: 'kyrial-sans-pro';
+    font-weight: 500;
+    font-style: normal;
+    color: #ac8887; 
+}
+
+h1{
+    font-family: 'ClassyBrune';
+    font-weight: normal;
+    font-weight: 500;
+    font-size: 36px;
+    color: #40075B;
+}
+
+h2{
+    font-size: 24;
+    font-family: 'ClassyBrune';
+    font-weight: normal;
+    color: #40075B;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+h3{
+    font-size: 18;
+    font-family: 'ClassyBrune';
+    font-weight: normal;
+    color: #40075B;
+}
+p {
+    font-size: 18;
+    font-family: 'kyrial-sans-pro';
+    font-weight: 500;
+    font-style: normal;
+    color: #ac8887;
+}
+
+li{
+    font-size: 18;
+    font-family: 'kyrial-sans-pro';
+    font-weight: 500;
+    font-style: normal;
+    color: #ac8887;
+}
+
+.milestonetitle{
+    position: fixed;
+    margin-bottom: 10px;
+    list-style: circle;
+}
+
+.milestonelist{
+    margin-top: 20px;
+    position: fixed;
+}
+
+.dot{
+    height: 10px;
+    width: 10px;
+    background-color: #fefcfd;
+    border: 2px solid #40075B;
+    border-radius: 50%;
+}
+
+.heroImage{
+    margin-bottom: 32px;
+    width: 100%;
+}
+
+.personaimages{
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+img{
+    width: 100%;
+}
+
+.imageborder{
+    width: 100%;
+    border-bottom: 10px solid #ac8887;
+    border-right: 10px solid #ac8887;
+}
+
+  footer{
+    clear:inline-start;
+    border-top:10px solid #ac8887;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+.footer-inline-block {
+    clear: both;
+    display: inline-block;
+    align-items: center;
+    vertical-align: top;
+    padding-right: 50px;
+    padding-left: 50px;
+    color: #ac8887;
+    font-family: 'ClassyBrune';
+}
+
+.footercontainer{
+    width: 100%; 
+    text-align: center;
+    margin-top: 15vh;
+}
+.footertext{
+    color: #ac8887;
+}
