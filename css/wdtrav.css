@@ -170,3 +170,38 @@ img{
 .footertext{
     color: #ac8887;
 }
+
+.btn-primary{
+    margin: 20px 30px;
+    background-color: #ffffff; 
+    border: 3px solid #40075B;
+    color:#40075B;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    font-family: 'kyrial-sans-pro';
+    font-weight: 500;
+    font-style: normal;
+    color: #40075B;
+}
+
+.btn-primary:hover{
+
+    margin: 20px 30px;
+    background-color: #ffefd3; 
+    border: 3px solid #40075B;
+    color:#40075B;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    font-family: 'kyrial-sans-pro';
+    font-weight: 500;
+    font-style: normal;
+    color: #40075B;
+}
